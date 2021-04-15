@@ -1,0 +1,23 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "スライドを置く場所",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yumechi/slides.git"
+  },
+  "author": "yumechi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yumechi/slides/issues"
+  },
+  "homepage": "https://github.com/yumechi/slides#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.23.3",
+    "textlint": "^11.9.0"
+  }
+}
