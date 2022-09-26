@@ -1,23 +1,17 @@
 {
-  "name": "slides",
-  "version": "1.0.0",
-  "description": "スライドを置く場所",
-  "main": "index.js",
+  "name": "myslides",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/yumechi/slides.git"
+  "dependencies": {
+    "@slidev/cli": "^0.36.5",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
   },
-  "author": "yumechi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yumechi/slides/issues"
-  },
-  "homepage": "https://github.com/yumechi/slides#readme",
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.23.3",
-    "textlint": "^11.9.0"
+    "playwright-chromium": "^1.26.0"
   }
 }
